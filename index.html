@@ -1463,7 +1463,6 @@
     <button class="nav-pill-btn active" onclick="scrollToSection('enquiry-builder')">⚡ WhatsApp Enquiry</button>
     <button class="nav-pill-btn" onclick="scrollToSection('services-showcase')">⚖️ Legal Services</button>
     <button class="nav-pill-btn" onclick="scrollToSection('chamber-schedule')">🏛️ Chamber & Hours</button>
-    <button class="nav-pill-btn" onclick="scrollToSection('card-gallery')">📸 Visiting Card</button>
   </nav>
 
   <!-- ==========================================================================
@@ -1802,30 +1801,6 @@
       </div>
     </section>
 
-    <!-- VISITING CARD GALLERY -->
-    <section class="section-block" id="card-gallery">
-      <div class="section-header">
-        <div>
-          <h2 class="section-title">
-            <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-            Official Visiting Card & Chamber Gallery
-          </h2>
-          <p class="section-subtitle">Tap any image to view in high resolution.</p>
-        </div>
-      </div>
-
-      <div class="gallery-grid">
-        <div class="gallery-item" style="cursor:pointer;" onclick="openImageModal('assets/advocate_board.jpg', 'Advocate Chamber & Legal Practice Scope')">
-          <img src="assets/advocate_board.jpg" alt="Advocate Chamber Board" loading="lazy">
-          <div class="gallery-caption">Chamber Board: Civil, Criminal, Revenue & Notary</div>
-        </div>
-        <div class="gallery-item" style="cursor:pointer;" onclick="openImageModal('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80', 'Chambers of Adv. Onkar Shinde')">
-          <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="Legal Chamber Office" loading="lazy">
-          <div class="gallery-caption">Consultation Chamber & Legal Library</div>
-        </div>
-      </div>
-    </section>
-
     <!-- BAR COUNCIL OF INDIA DISCLAIMER -->
     <section class="bci-disclaimer">
       <strong>BAR COUNCIL OF INDIA DISCLAIMER:</strong> As per the rules framed by the Bar Council of India under the Advocates Act, 1961, advocates and legal practitioners are not permitted to solicit work or advertise. This page is prepared exclusively for information and contact convenience for clients and acquaintances scanning Adv. Onkar Shinde's official visiting card QR code.
@@ -1879,15 +1854,6 @@
 
       <p style="font-size:13px; font-weight:800; color:var(--accent);">ADV. ONKAR SHINDE</p>
       <p style="font-size:11px; color:var(--text-muted);">Advocate & Legal Consultant · +91 84597 43665 · Pune</p>
-    </div>
-  </div>
-
-  <!-- IMAGE LIGHTBOX MODAL -->
-  <div class="modal-overlay" id="imgLightboxModal" onclick="closeImageModal(event)">
-    <div class="modal-box" style="max-width:500px; padding:14px;" onclick="event.stopPropagation()">
-      <button class="modal-close" onclick="closeImageModal()">&times;</button>
-      <h4 id="lightboxTitle" style="font-size:13px; font-weight:700; margin-bottom:8px; color:var(--text-main); text-align:left;">Preview</h4>
-      <img id="lightboxImg" src="" style="width:100%; border-radius:var(--radius-sm); max-height:75vh; object-fit:contain; background:#000;" alt="Full Preview">
     </div>
   </div>
 
@@ -2222,20 +2188,6 @@
     function closeQrModal(e) {
       if (e) e.stopPropagation();
       document.getElementById("qrModal").classList.remove("open");
-    }
-
-    function openImageModal(imgSrc, titleText) {
-      const modal = document.getElementById("imgLightboxModal");
-      const img = document.getElementById("lightboxImg");
-      const title = document.getElementById("lightboxTitle");
-      img.src = imgSrc;
-      title.textContent = titleText || "Preview";
-      modal.classList.add("open");
-    }
-
-    function closeImageModal(e) {
-      if (e) e.stopPropagation();
-      document.getElementById("imgLightboxModal").classList.remove("open");
     }
 
     function showToast(msg) {
