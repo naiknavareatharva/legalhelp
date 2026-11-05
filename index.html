@@ -1,0 +1,2254 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="noir">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>Adv. Onkar Shinde | TERRALEX · Digital Visiting Card & Legal Assistance</title>
+  
+  <!-- SEO & Open Graph for Visiting Card QR Scan & Social Sharing -->
+  <meta name="description" content="Official Digital Visiting Card of Adv. Onkar Shinde (TERRALEX). Land & Property Conveyancing, 7/12 Land Revenue, Court Litigation, Notary & Agreements in Pune, Maharashtra.">
+  <meta name="keywords" content="Advocate Onkar Shinde, Adv Onkar Shinde, TERRALEX Pune, Property Lawyer Pune, 7/12 Ferfar, Sale Deed Registration, Notary Pune">
+  <meta name="author" content="Adv. Onkar Shinde">
+  <meta property="og:title" content="Adv. Onkar Shinde | TERRALEX · Digital Visiting Card">
+  <meta property="og:description" content="Land • Debt • Conveyancing. Scanned from Official Visiting Card. Direct WhatsApp Consultation.">
+  <meta property="og:type" content="profile">
+  <meta name="theme-color" content="#0a0c10">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23dfba73'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+
+  <!-- Google Fonts: Cinzel & Playfair (Prestige Legal) + Inter (Crisp Mobile UI) + Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       THEME SYSTEM & DESIGN TOKENS
+       - noir: Ultra-sharp Monochrome (Black & White Executive)
+       - terralex: Obsidian Black & Royal Burnished Gold (Image 1 Luxury)
+       - classic: Judicial Navy & Warm Paper
+       ========================================================================== */
+    :root {
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-serif: 'Cinzel', 'Playfair Display', Georgia, serif;
+      --font-devanagari: 'Noto Sans Devanagari', 'Inter', sans-serif;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      --container-w: 780px;
+      --whatsapp-green: #25d366;
+    }
+
+    /* THEME 1: MONOCHROME NOIR (Black & White Executive) */
+    html[data-theme="noir"] {
+      --bg-page: #0a0c10;
+      --bg-surface: #12151c;
+      --bg-card: #181d26;
+      --bg-card-hover: #1f2532;
+      --bg-accent-subtle: #242b38;
+      --border-subtle: #242a36;
+      --border-strong: #3b4556;
+      --text-main: #f5f7fa;
+      --text-muted: #9aa7b9;
+      --text-faint: #626e82;
+      --accent: #ffffff;
+      --accent-contrast: #0a0c10;
+      --accent-glow: rgba(255, 255, 255, 0.12);
+      --badge-bg: #212734;
+      --badge-text: #e2e8f0;
+      --hero-gradient: radial-gradient(circle at 50% 0%, #1e2430 0%, #0a0c10 85%);
+      --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+    }
+
+    /* THEME 2: TERRALEX IMPERIAL (Black & Royal Gold) */
+    html[data-theme="terralex"] {
+      --bg-page: #08090b;
+      --bg-surface: #101216;
+      --bg-card: #16181f;
+      --bg-card-hover: #1e212b;
+      --bg-accent-subtle: #262117;
+      --border-subtle: #2d261a;
+      --border-strong: #5a482b;
+      --text-main: #f8f6f0;
+      --text-muted: #b8aba0;
+      --text-faint: #7d7266;
+      --accent: #dfba73;
+      --accent-contrast: #08090b;
+      --accent-glow: rgba(223, 186, 115, 0.22);
+      --badge-bg: #262117;
+      --badge-text: #dfba73;
+      --hero-gradient: radial-gradient(circle at 50% 0%, #2a2014 0%, #08090b 85%);
+      --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.85);
+    }
+
+    /* THEME 3: SUPREME COURT CLASSIC (Slate Navy & Crisp Parchment) */
+    html[data-theme="classic"] {
+      --bg-page: #f4f6f9;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --bg-accent-subtle: #edf4fe;
+      --border-subtle: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-faint: #94a3b8;
+      --accent: #17487e;
+      --accent-contrast: #ffffff;
+      --accent-glow: rgba(23, 72, 126, 0.15);
+      --badge-bg: #e2ecf9;
+      --badge-text: #133e6d;
+      --hero-gradient: linear-gradient(135deg, #0d203a 0%, #173862 100%);
+      --card-shadow: 0 8px 24px -6px rgba(15, 23, 42, 0.08);
+    }
+
+    /* ==========================================================================
+       MOBILE-FIRST RESETS & APP FEEL
+       ========================================================================== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: var(--bg-page);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.5;
+      min-height: 100vh;
+      overflow-x: hidden;
+      transition: background 0.25s ease, color 0.25s ease;
+      /* Add bottom space for sticky mobile thumb-dock including iOS home indicator */
+      padding-bottom: calc(88px + env(safe-area-inset-bottom, 15px));
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, textarea, select {
+      font: inherit;
+      color: inherit;
+    }
+
+    button:active, .action-btn:active, .choice-chip:active, .cat-card-btn:active {
+      transform: scale(0.97);
+    }
+
+    /* ==========================================================================
+       TOP UTILITY BAR & THEME SWITCHER
+       ========================================================================== */
+    .utility-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 12, 16, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: var(--transition);
+    }
+    html[data-theme="classic"] .utility-header {
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .utility-inner {
+      max-width: var(--container-w);
+      margin: 0 auto;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .brand-mark svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    .theme-picker {
+      display: flex;
+      align-items: center;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-full);
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .theme-btn {
+      border: 0;
+      background: transparent;
+      padding: 5px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+
+    .theme-btn.active {
+      background: var(--accent);
+      color: var(--accent-contrast);
+      box-shadow: 0 2px 8px var(--accent-glow);
+    }
+
+    /* ==========================================================================
+       MOBILE DIGITAL VISITING CARD HERO (OPTIMIZED FOR QR SCAN)
+       ========================================================================== */
+    .card-hero {
+      position: relative;
+      background: var(--hero-gradient);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 28px 18px 24px;
+      text-align: center;
+    }
+
+    .card-hero-container {
+      max-width: var(--container-w);
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* QR Scan Origin Pill Banner */
+    .qr-scan-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 5px 13px;
+      background: rgba(37, 211, 102, 0.12);
+      border: 1px solid rgba(37, 211, 102, 0.35);
+      border-radius: var(--radius-full);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #25d366;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .qr-scan-badge svg {
+      width: 13px;
+      height: 13px;
+      fill: currentColor;
+    }
+
+    /* Seal & Initials Monogram for Adv. Onkar Shinde */
+    .profile-seal-wrap {
+      position: relative;
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 14px;
+    }
+
+    .profile-seal {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #181c24 0%, #0d1015 100%);
+      border: 2.5px solid var(--accent);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+    }
+    html[data-theme="terralex"] .profile-seal {
+      background: radial-gradient(circle, #221c13 0%, #101216 100%);
+      border-color: #dfba73;
+    }
+
+    .seal-monogram {
+      font-family: var(--font-serif);
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .seal-subtitle {
+      font-size: 9px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 800;
+      opacity: 0.85;
+      margin-top: 2px;
+    }
+
+    .verified-tick {
+      position: absolute;
+      bottom: 0px;
+      right: 2px;
+      background: var(--accent);
+      color: var(--accent-contrast);
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--bg-page);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+
+    .verified-tick svg {
+      width: 13px;
+      height: 13px;
+      fill: currentColor;
+    }
+
+    /* Hero Typography */
+    .hero-firm-title {
+      font-family: var(--font-serif);
+      font-size: clamp(22px, 5.5vw, 32px);
+      font-weight: 900;
+      letter-spacing: 2px;
+      line-height: 1.15;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .hero-firm-subtitle {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .hero-advocate-name {
+      font-size: clamp(19px, 4.8vw, 25px);
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-advocate-name span.marathi-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent);
+      font-family: var(--font-devanagari);
+      margin-left: 6px;
+    }
+
+    .hero-credentials {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .hero-slogan {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 14.5px;
+      color: var(--accent);
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-pill-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 22px;
+    }
+
+    .hero-pill {
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 4px 11px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-full);
+    }
+
+    /* ==========================================================================
+       1-TAP QUICK ACTION BAR (CALL, WHATSAPP, SAVE VCF, MAP, SHARE)
+       ========================================================================== */
+    .quick-actions-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .action-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 11px 4px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-size: 11px;
+      font-weight: 700;
+      transition: var(--transition);
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-btn:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px var(--accent-glow);
+    }
+
+    .action-btn.btn-whatsapp-hero {
+      background: #19874c;
+      border-color: #25d366;
+      color: #ffffff;
+    }
+    .action-btn.btn-whatsapp-hero:hover {
+      background: #1f9d58;
+    }
+
+    .action-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* Mobile Quick Navigation Bar */
+    .mobile-quick-nav {
+      display: flex;
+      overflow-x: auto;
+      gap: 8px;
+      padding: 14px 16px;
+      max-width: var(--container-w);
+      margin: 0 auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .mobile-quick-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .nav-pill-btn {
+      flex-shrink: 0;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      padding: 7px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+    }
+
+    .nav-pill-btn.active, .nav-pill-btn:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--bg-card);
+    }
+
+    /* ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== */
+    .main-wrapper {
+      max-width: var(--container-w);
+      margin: 0 auto;
+      padding: 16px 16px 36px;
+    }
+
+    .section-block {
+      margin-bottom: 32px;
+      scroll-margin-top: 70px;
+    }
+
+    .section-header {
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .section-title svg {
+      width: 19px;
+      height: 19px;
+      fill: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .section-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    /* ==========================================================================
+       ABOUT & CREDENTIALS ACCORDION / CARD
+       ========================================================================== */
+    .about-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 22px 18px;
+      box-shadow: var(--card-shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--accent);
+    }
+
+    .about-text {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.65;
+      margin-bottom: 14px;
+    }
+
+    .about-text strong {
+      color: var(--text-main);
+    }
+
+    .court-jurisdiction-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px dashed var(--border-subtle);
+    }
+
+    .jurisdiction-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      font-size: 12.5px;
+      color: var(--text-main);
+    }
+
+    .jurisdiction-item svg {
+      width: 15px;
+      height: 15px;
+      fill: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       PRACTICE AREAS & SERVICES WITH VISUAL IMAGES
+       ========================================================================== */
+    .services-grid-showcase {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .service-showcase-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      box-shadow: var(--card-shadow);
+    }
+
+    .service-showcase-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .service-img-header {
+      position: relative;
+      height: 125px;
+      overflow: hidden;
+      background: #11141a;
+    }
+
+    .service-img-header img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.85);
+      transition: transform 0.4s ease;
+    }
+
+    .service-showcase-card:hover .service-img-header img {
+      transform: scale(1.05);
+    }
+
+    .service-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(10, 12, 16, 0.88);
+      backdrop-filter: blur(8px);
+      color: var(--accent);
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 3px 9px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-strong);
+    }
+
+    .service-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .service-name {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 3px;
+    }
+
+    .service-devanagari {
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-family: var(--font-devanagari);
+    }
+
+    .service-items-list {
+      list-style: none;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      flex-grow: 1;
+    }
+
+    .service-items-list li {
+      position: relative;
+      padding-left: 15px;
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+
+    .service-items-list li::before {
+      content: '•';
+      position: absolute;
+      left: 2px;
+      color: var(--accent);
+      font-size: 14px;
+    }
+
+    .service-action-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      width: 100%;
+      padding: 9px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .service-action-btn:hover {
+      background: var(--accent);
+      color: var(--accent-contrast);
+      border-color: var(--accent);
+    }
+
+    /* ==========================================================================
+       INTERACTIVE WHATSAPP ENQUIRY GENERATOR (KILLER MOBILE CONVERTER)
+       ========================================================================== */
+    .enquiry-container-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 22px 18px;
+      box-shadow: var(--card-shadow);
+      position: relative;
+    }
+
+    .enquiry-badge-header {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      background: rgba(37, 211, 102, 0.12);
+      color: #25d366;
+      border: 1px solid rgba(37, 211, 102, 0.3);
+      margin-bottom: 8px;
+    }
+
+    .step-header-label {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin: 18px 0 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .step-number-circle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: var(--accent-contrast);
+      font-size: 11.5px;
+      font-weight: 800;
+      font-family: var(--font-body);
+    }
+
+    .step-guidance {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    /* Category Selection Grid */
+    .interactive-cat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 9px;
+      margin-bottom: 18px;
+    }
+
+    .cat-card-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 12px 10px;
+      text-align: left;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 84px;
+    }
+
+    .cat-card-btn:hover {
+      border-color: var(--border-strong);
+      background: var(--bg-card-hover);
+    }
+
+    .cat-card-btn.selected {
+      border-color: var(--accent);
+      background: var(--bg-accent-subtle);
+      box-shadow: 0 0 0 1px var(--accent) inset;
+    }
+
+    .cat-card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1.25;
+    }
+
+    .cat-card-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: var(--font-devanagari);
+      line-height: 1.25;
+      display: block;
+    }
+
+    .cat-card-btn.selected .cat-card-sub {
+      color: var(--accent);
+    }
+
+    /* Subservice Choice Chips */
+    .subservice-chips-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .choice-chip {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 10px 11px;
+      cursor: pointer;
+      font-size: 12.5px;
+      color: var(--text-main);
+      transition: var(--transition);
+      user-select: none;
+    }
+
+    .choice-chip:hover {
+      border-color: var(--border-strong);
+    }
+
+    .choice-chip.selected {
+      border-color: var(--accent);
+      background: var(--bg-accent-subtle);
+      box-shadow: 0 0 0 1px var(--accent) inset;
+    }
+
+    .choice-chip input[type="radio"] {
+      accent-color: var(--accent);
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+    }
+
+    /* Status Grid */
+    .status-chips-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    /* Form Fields Grid */
+    .form-inputs-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .form-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .form-control {
+      width: 100%;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      color: var(--text-main);
+      font-size: 13px;
+      transition: var(--transition);
+      outline: none;
+    }
+
+    .form-control:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px var(--accent-glow);
+    }
+
+    textarea.form-control {
+      min-height: 80px;
+      resize: vertical;
+    }
+
+    /* Language Preference */
+    .lang-row {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      padding: 6px 0;
+    }
+
+    .lang-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      color: var(--text-main);
+    }
+
+    .lang-label input {
+      accent-color: var(--accent);
+    }
+
+    /* Live WhatsApp Message Preview Container */
+    .preview-box {
+      margin-top: 20px;
+      background: #0d1b14;
+      border: 1px solid rgba(37, 211, 102, 0.25);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      position: relative;
+    }
+    html[data-theme="classic"] .preview-box {
+      background: #f0fdf4;
+    }
+
+    .preview-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .preview-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 800;
+      color: #25d366;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+
+    .preview-content {
+      font-family: monospace, sans-serif;
+      font-size: 12px;
+      color: #d1fae5;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      background: rgba(0, 0, 0, 0.25);
+      padding: 10px 12px;
+      border-radius: 6px;
+      border: 1px solid rgba(37, 211, 102, 0.15);
+      max-height: 150px;
+      overflow-y: auto;
+    }
+    html[data-theme="classic"] .preview-content {
+      background: #ffffff;
+      color: #065f46;
+      border-color: #bbf7d0;
+    }
+
+    /* Submit WhatsApp Button */
+    .btn-launch-whatsapp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background: #25d366;
+      color: #052e16;
+      border: 0;
+      border-radius: var(--radius-full);
+      padding: 15px 24px;
+      font-size: 15.5px;
+      font-weight: 800;
+      cursor: pointer;
+      margin-top: 18px;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+      transition: var(--transition);
+    }
+
+    .btn-launch-whatsapp:hover {
+      background: #20ba5a;
+      transform: translateY(-2px);
+    }
+
+    .btn-launch-whatsapp svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    .enquiry-footer-note {
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 10px;
+      line-height: 1.4;
+    }
+
+    /* ==========================================================================
+       CHAMBER DETAILS & HOURS
+       ========================================================================== */
+    .chamber-info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .chamber-detail-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      box-shadow: var(--card-shadow);
+    }
+
+    .detail-card-head {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .detail-card-head svg {
+      width: 17px;
+      height: 17px;
+      fill: var(--accent);
+    }
+
+    .detail-schedule-list {
+      list-style: none;
+      font-size: 12.5px;
+    }
+
+    .detail-schedule-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+    }
+
+    .detail-schedule-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .detail-schedule-list strong {
+      color: var(--text-main);
+    }
+
+    /* ==========================================================================
+       GALLERY & VISITING CARD PREVIEWS
+       ========================================================================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      aspect-ratio: 16 / 10;
+      box-shadow: var(--card-shadow);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.04);
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 7px 10px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.88), transparent);
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    /* ==========================================================================
+       BAR COUNCIL DISCLAIMER & FOOTER
+       ========================================================================== */
+    .bci-disclaimer {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      font-size: 11px;
+      color: var(--text-faint);
+      line-height: 1.55;
+      margin-top: 26px;
+    }
+
+    .bci-disclaimer strong {
+      color: var(--text-muted);
+    }
+
+    footer.site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      text-align: center;
+      padding: 22px 18px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 26px;
+    }
+
+    footer strong {
+      color: var(--accent);
+    }
+
+    /* ==========================================================================
+       STICKY BOTTOM MOBILE DOCK (ALWAYS AT THUMB REACH)
+       ========================================================================== */
+    .mobile-bottom-dock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(10, 12, 16, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border-subtle);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+      display: flex;
+      justify-content: center;
+    }
+    html[data-theme="classic"] .mobile-bottom-dock {
+      background: rgba(255, 255, 255, 0.96);
+    }
+
+    .mobile-dock-inner {
+      width: 100%;
+      max-width: var(--container-w);
+      display: grid;
+      grid-template-columns: 1fr 1.6fr 1fr;
+      gap: 9px;
+    }
+
+    .dock-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 11px 8px;
+      border-radius: var(--radius-full);
+      font-size: 12.5px;
+      font-weight: 800;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .dock-btn-call {
+      background: var(--bg-surface);
+      color: var(--text-main);
+    }
+
+    .dock-btn-whatsapp {
+      background: #25d366;
+      color: #032b14;
+      border-color: #25d366;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+    }
+
+    .dock-btn-vcard {
+      background: var(--bg-surface);
+      color: var(--accent);
+      border-color: var(--border-strong);
+    }
+
+    .dock-btn svg {
+      width: 17px;
+      height: 17px;
+      fill: currentColor;
+    }
+
+    /* ==========================================================================
+       MODALS: QR CODE & IMAGE LIGHTBOX
+       ========================================================================== */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+      padding: 18px;
+    }
+
+    .modal-overlay.open {
+      display: flex;
+    }
+
+    .modal-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: transparent;
+      border: 0;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .qr-container {
+      background: #ffffff;
+      padding: 14px;
+      border-radius: var(--radius-md);
+      display: inline-block;
+      margin: 14px 0;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+
+    .qr-container img {
+      width: 180px;
+      height: 180px;
+      display: block;
+    }
+
+    /* Toast Notification */
+    .toast-notice {
+      position: fixed;
+      bottom: 84px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--accent);
+      color: var(--accent-contrast);
+      padding: 9px 18px;
+      border-radius: var(--radius-full);
+      font-size: 12.5px;
+      font-weight: 700;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.28s ease;
+      z-index: 3000;
+    }
+
+    .toast-notice.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* ==========================================================================
+       RESPONSIVE ADAPTATIONS (MOBILE PHONE PRIMARY)
+       ========================================================================== */
+    @media (max-width: 680px) {
+      .services-grid-showcase,
+      .chamber-info-grid,
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .interactive-cat-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .status-chips-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .subservice-chips-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-inputs-row {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-actions-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+      }
+
+      .action-btn {
+        padding: 9px 2px;
+        font-size: 9.5px;
+      }
+
+      .action-btn svg {
+        width: 17px;
+        height: 17px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .interactive-cat-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       TOP UTILITY HEADER & THEME TOGGLE
+       ========================================================================== -->
+  <header class="utility-header">
+    <div class="utility-inner">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        <span>ADV. ONKAR SHINDE</span>
+      </div>
+
+      <!-- Theme Switcher -->
+      <div class="theme-picker" title="Switch Theme">
+        <button class="theme-btn active" data-theme-target="noir" onclick="setAppTheme('noir')">Noir</button>
+        <button class="theme-btn" data-theme-target="terralex" onclick="setAppTheme('terralex')">Terralex</button>
+        <button class="theme-btn" data-theme-target="classic" onclick="setAppTheme('classic')">Classic</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MOBILE DIGITAL VISITING CARD HERO
+       ========================================================================== -->
+  <section class="card-hero">
+    <div class="card-hero-container">
+
+      <!-- QR Scan Verified Badge -->
+      <div class="qr-scan-badge">
+        <svg viewBox="0 0 24 24"><path d="M3 5v4h2V5h4V3H5c-1.1 0-2 .9-2 2zm2 10H3v4c0 1.1.9 2 2 2h4v-2H5v-4zm14 4h-4v2h4c1.1 0 2-.9 2-2v-4h-2v4zm0-16h-4v2h4v4h2V5c0-1.1-.9-2-2-2z"/></svg>
+        <span>VISITING CARD QR VERIFIED</span>
+      </div>
+
+      <!-- Official Advocate Monogram Seal (OS) -->
+      <div class="profile-seal-wrap">
+        <div class="profile-seal">
+          <div class="seal-monogram">OS</div>
+          <div class="seal-subtitle">ADVOCATE</div>
+        </div>
+        <div class="verified-tick" title="Bar Council Registered Practitioner">
+          <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+        </div>
+      </div>
+
+      <!-- Firm & Advocate Name -->
+      <h1 class="hero-firm-title">TERRALEX</h1>
+      <div class="hero-firm-subtitle">LAND • DEBT • CONVEYANCING</div>
+
+      <div class="hero-advocate-name">
+        Adv. Onkar Shinde
+        <span class="marathi-name">ॲड. ओंकार शिंदे</span>
+      </div>
+      <div class="hero-credentials">
+        Advocate · High Court & District / Sessions Court, Pune
+      </div>
+
+      <p class="hero-slogan">
+        "Your Land. Your Rights. Our Expertise."
+      </p>
+
+      <!-- Jurisdiction & Scope Pills -->
+      <div class="hero-pill-row">
+        <span class="hero-pill">📍 Pune, Haveli & PCMC</span>
+        <span class="hero-pill">⚖️ Civil & Criminal Practice</span>
+        <span class="hero-pill">📜 7/12 & Revenue Specialist</span>
+        <span class="hero-pill">🛡️ Notary & Registry</span>
+      </div>
+
+      <!-- 1-Tap Quick Action Row (Mobile Thumb Reach) -->
+      <div class="quick-actions-grid">
+        <a href="tel:+918459743665" class="action-btn" title="Call Adv. Onkar Shinde">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span>Call</span>
+        </a>
+
+        <a href="https://wa.me/918459743665?text=Hello%20Adv.%20Onkar%20Shinde%20Sir%2C%20I%20scanned%20your%20visiting%20card%20QR%20code.%20I%20need%20legal%20guidance." target="_blank" class="action-btn btn-whatsapp-hero" title="WhatsApp Adv. Onkar">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.61.19 1.16.16 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <button onclick="downloadVCard()" class="action-btn" title="Add Adv. Onkar Shinde to Contacts">
+          <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1z"/></svg>
+          <span>Save VCF</span>
+        </button>
+
+        <a href="https://maps.google.com/?q=District+Court+Pune+Maharashtra" target="_blank" class="action-btn" title="Chamber Location">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span>Chamber</span>
+        </a>
+
+        <button onclick="shareDigitalCard()" class="action-btn" title="Share Digital Card">
+          <svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg>
+          <span>Share</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Mobile Quick Filter Pills -->
+  <nav class="mobile-quick-nav">
+    <button class="nav-pill-btn active" onclick="scrollToSection('enquiry-builder')">⚡ WhatsApp Enquiry</button>
+    <button class="nav-pill-btn" onclick="scrollToSection('services-showcase')">⚖️ Legal Services</button>
+    <button class="nav-pill-btn" onclick="scrollToSection('chamber-schedule')">🏛️ Chamber & Hours</button>
+    <button class="nav-pill-btn" onclick="scrollToSection('card-gallery')">📸 Visiting Card</button>
+  </nav>
+
+  <!-- ==========================================================================
+       MAIN CONTENT WRAPPER
+       ========================================================================== -->
+  <main class="main-wrapper">
+
+    <!-- ABOUT ADV. ONKAR SHINDE & JURISDICTION -->
+    <section class="section-block">
+      <div class="about-card">
+        <h2 style="font-family:var(--font-serif); font-size:18px; margin-bottom:10px; color:var(--text-main); display:flex; align-items:center; gap:8px;">
+          <svg style="width:18px;height:18px;fill:var(--accent);" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+          About Adv. Onkar Shinde & Practice
+        </h2>
+        <p class="about-text">
+          <strong>Adv. Onkar Shinde</strong> heads <strong>TERRALEX</strong>, a specialized legal practice and litigation consultancy centered in Pune. With deep expertise across property conveyancing, land titles, and dispute resolution, Adv. Onkar Shinde provides client-first, transparent legal solutions with impeccable documentation integrity.
+        </p>
+        <p class="about-text">
+          Areas of intensive daily practice include <strong>Land & Property Conveyancing, 7/12 Extract Mutation (फेरफार), Title Search & Due Diligence, Civil & Criminal Litigation, Cheque Bounce matters, and Registered Notary Agreements</strong>.
+        </p>
+
+        <!-- Court Jurisdictions -->
+        <div class="court-jurisdiction-grid">
+          <div class="jurisdiction-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99z"/></svg>
+            <div><strong>District & Sessions Court</strong><br><span style="color:var(--text-muted);font-size:11.5px;">Shivajinagar, Pune & Talukas</span></div>
+          </div>
+          <div class="jurisdiction-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99z"/></svg>
+            <div><strong>Revenue & Tehsildar Courts</strong><br><span style="color:var(--text-muted);font-size:11.5px;">Haveli, Mulshi, PCMC, Pune</span></div>
+          </div>
+          <div class="jurisdiction-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99z"/></svg>
+            <div><strong>Sub-Registrar & Notary</strong><br><span style="color:var(--text-muted);font-size:11.5px;">Deeds, Registry & Stamps</span></div>
+          </div>
+          <div class="jurisdiction-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99z"/></svg>
+            <div><strong>Co-operative Court & Tribunals</strong><br><span style="color:var(--text-muted);font-size:11.5px;">Housing Society & Affidavits</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         KILLER INTERACTIVE WHATSAPP ENQUIRY GENERATOR (MOBILE OPTIMIZED)
+         ========================================================================== -->
+    <section class="section-block" id="enquiry-builder">
+      <div class="enquiry-container-box">
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <div class="enquiry-badge-header">
+            <svg style="width:13px;height:13px;fill:currentColor;" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            <span>Direct WhatsApp Consultation Desk</span>
+          </div>
+          <span style="font-size:11.5px; color:var(--text-muted);">Adv. Onkar Shinde: <strong>+91 84597 43665</strong></span>
+        </div>
+
+        <h2 style="font-family:var(--font-serif); font-size:20px; margin-bottom:4px; color:var(--text-main);">
+          Start Your Legal Consultation
+        </h2>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+          Select your legal requirement below. A personalized message addressed to Adv. Onkar Shinde will be drafted instantly for your WhatsApp.
+        </p>
+
+        <form id="enquiryForm" onsubmit="handleFormSubmit(event)">
+
+          <!-- STEP 1: CATEGORY SELECTION -->
+          <div class="step-header-label">
+            <span class="step-number-circle">1</span>
+            <span>Select Legal Domain / कामाचे क्षेत्र</span>
+          </div>
+          <p class="step-guidance">Choose your category:</p>
+
+          <div class="interactive-cat-grid" id="categoryGrid">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- STEP 2: SPECIFIC SERVICE SELECTION -->
+          <div class="step-header-label">
+            <span class="step-number-circle">2</span>
+            <span>Specific Legal Service / कामाचा प्रकार</span>
+          </div>
+          <p class="step-guidance">Select the specific item you require:</p>
+
+          <div class="subservice-chips-grid" id="serviceGrid">
+            <!-- Rendered dynamically based on selected category -->
+          </div>
+
+          <!-- STEP 3: CURRENT CASE STATUS -->
+          <div class="step-header-label">
+            <span class="step-number-circle">3</span>
+            <span>Current Status / सध्याची स्थिती</span>
+          </div>
+
+          <div class="status-chips-grid" id="statusGrid">
+            <label class="choice-chip selected">
+              <input type="radio" name="status" value="I want to start the process" checked onchange="updateFormState()">
+              <span>🚀 Want to start process</span>
+            </label>
+            <label class="choice-chip">
+              <input type="radio" name="status" value="Documents are ready for review" onchange="updateFormState()">
+              <span>📂 Documents are ready</span>
+            </label>
+            <label class="choice-chip">
+              <input type="radio" name="status" value="Work is already in progress" onchange="updateFormState()">
+              <span>⏳ Already in progress</span>
+            </label>
+            <label class="choice-chip">
+              <input type="radio" name="status" value="I need urgent assistance / notice received" onchange="updateFormState()">
+              <span>⚠️ Urgent notice / court date</span>
+            </label>
+            <label class="choice-chip">
+              <input type="radio" name="status" value="I need legal advice & fee quote first" onchange="updateFormState()">
+              <span>💬 Need advice & fees first</span>
+            </label>
+          </div>
+
+          <!-- STEP 4: LOCATION & DETAILS -->
+          <div class="step-header-label">
+            <span class="step-number-circle">4</span>
+            <span>Jurisdiction & Contact Details</span>
+          </div>
+
+          <div class="form-inputs-row">
+            <div class="form-group">
+              <label class="form-label" for="fieldLocation">Location / Taluka / City</label>
+              <input type="text" id="fieldLocation" class="form-control" value="Pune" placeholder="e.g. Pune, Haveli, Mulshi, PCMC" oninput="updateFormState()">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Preferred Language</label>
+              <div class="lang-row">
+                <label class="lang-label">
+                  <input type="radio" name="language" value="Marathi" checked onchange="updateFormState()"> मराठी
+                </label>
+                <label class="lang-label">
+                  <input type="radio" name="language" value="Hindi" onchange="updateFormState()"> हिंदी
+                </label>
+                <label class="lang-label">
+                  <input type="radio" name="language" value="English" onchange="updateFormState()"> English
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="fieldName">Your Name (Optional)</label>
+              <input type="text" id="fieldName" class="form-control" placeholder="Enter your full name" oninput="updateFormState()">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="fieldPhone">Phone Number (Optional)</label>
+              <input type="tel" id="fieldPhone" class="form-control" placeholder="Enter mobile number" oninput="updateFormState()">
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="fieldDetails">Brief Requirement / Question (Optional)</label>
+              <textarea id="fieldDetails" class="form-control" placeholder="e.g. Survey number, deed type, court case question..." oninput="updateFormState()"></textarea>
+            </div>
+          </div>
+
+          <!-- LIVE PREVIEW OF THE FORMATTED WHATSAPP MESSAGE -->
+          <div class="preview-box">
+            <div class="preview-header">
+              <span class="preview-badge">
+                <svg style="width:13px;height:13px;fill:currentColor;" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+                Live WhatsApp Message Preview
+              </span>
+              <span style="font-size:10.5px;color:var(--text-muted);">Formatted automatically</span>
+            </div>
+            <div class="preview-content" id="messagePreview">Preparing message...</div>
+          </div>
+
+          <!-- SUBMIT ACTION -->
+          <button type="submit" class="btn-launch-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.61.19 1.16.16 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/></svg>
+            <span>Open in WhatsApp & Send Enquiry</span>
+          </button>
+          
+          <p class="enquiry-footer-note">
+            Opens directly in WhatsApp with Adv. Onkar Shinde (+91 84597 43665).
+          </p>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- PRACTICE AREAS WITH VISUAL CARDS -->
+    <section class="section-block" id="services-showcase">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            Practice Areas under the Firm
+          </h2>
+          <p class="section-subtitle">TERRALEX · Land, Debt & Conveyancing Practice</p>
+        </div>
+      </div>
+
+      <div class="services-grid-showcase">
+
+        <!-- 1. Property & Registry -->
+        <article class="service-showcase-card">
+          <div class="service-img-header">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=700&q=80" alt="Property and Registry Services" loading="lazy">
+            <span class="service-tag">Property & Registry</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Land & Property Conveyancing</h3>
+            <div class="service-devanagari">खरेदी-विक्री, दस्त नोंदणी आणि रजिस्ट्री</div>
+            <ul class="service-items-list">
+              <li>Sale Deed, Gift Deed, Release Deed & Mortgage</li>
+              <li>Agreement to Sale (साठेखत) & Possession Letter</li>
+              <li>Title Search Report & 30-Year Due Diligence</li>
+              <li>Leave & License, Commercial Lease Agreements</li>
+              <li>Deed of Conveyance & Society Deemed Conveyance</li>
+            </ul>
+            <button class="service-action-btn" onclick="preselectService('Property & Registry', 'Sale deed / Property registration (खरेदीखत)')">
+              <span>Enquire for Property Work</span> →
+            </button>
+          </div>
+        </article>
+
+        <!-- 2. Land & Revenue Matters -->
+        <article class="service-showcase-card">
+          <div class="service-img-header">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80" alt="Land and Revenue Matters" loading="lazy">
+            <span class="service-tag">Land & Revenue</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Land Acquisition & Revenue Matters</h3>
+            <div class="service-devanagari">जमीन, ७/१२, फेरफार आणि महसूल विषयक कामे</div>
+            <ul class="service-items-list">
+              <li>7/12 Extract, 8A, Ferfar (फेरफार) Mutation Entry</li>
+              <li>Heirship Entry / वारस नोंद & Name Transfer</li>
+              <li>Sub-division, Demarcation & Mojani (मोजणी) Help</li>
+              <li>Appeals before SDO, Collector & Revenue Tribunals</li>
+              <li>Land ownership dispute & encroachment defense</li>
+            </ul>
+            <button class="service-action-btn" onclick="preselectService('Land & Revenue Matters', 'Mutation entry / फेरफार नोंद')">
+              <span>Enquire for 7/12 Work</span> →
+            </button>
+          </div>
+        </article>
+
+        <!-- 3. Legal Documents & Notary -->
+        <article class="service-showcase-card">
+          <div class="service-img-header">
+            <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=700&q=80" alt="Legal Drafting and Notary" loading="lazy">
+            <span class="service-tag">Drafting & Notary</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Legal Drafting, Agreements & Notary</h3>
+            <div class="service-devanagari">कागदपत्रे, करारनामे आणि नोटरी सेवा</div>
+            <ul class="service-items-list">
+              <li>General & Special Power of Attorney (कुलमुखत्यारपत्र)</li>
+              <li>Affidavits, Indemnity Bonds & Undertakings</li>
+              <li>Memorandum of Understanding (MOU) & Partnerships</li>
+              <li>Development Agreements & Earnest Money Receipts</li>
+              <li>Registered Wills (इच्छापत्र) & Codicils</li>
+            </ul>
+            <button class="service-action-btn" onclick="preselectService('Legal Documents & Notary', 'Affidavit (प्रतिज्ञापत्र)')">
+              <span>Enquire for Drafting</span> →
+            </button>
+          </div>
+        </article>
+
+        <!-- 4. Court Cases & Litigation -->
+        <article class="service-showcase-card">
+          <div class="service-img-header">
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=700&q=80" alt="Court Litigation" loading="lazy">
+            <span class="service-tag">Litigation & Court</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Court Cases & Litigation</h3>
+            <div class="service-devanagari">दिवाणी व फौजदारी न्यायालयीन खटले</div>
+            <ul class="service-items-list">
+              <li>Civil Suits, Property Injunction & Partition Suits</li>
+              <li>Cheque Bounce Cases (Section 138 NI Act)</li>
+              <li>Family, Matrimonial & Maintenance Cases</li>
+              <li>Legal Notice Drafting & Reply to Legal Notices</li>
+              <li>Consumer Forum & Co-operative Court Visits</li>
+            </ul>
+            <button class="service-action-btn" onclick="preselectService('Court Cases & Litigation', 'Civil case / Property injunction suit')">
+              <span>Enquire for Court Case</span> →
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CHAMBER SCHEDULE & DETAILS -->
+    <section class="section-block" id="chamber-schedule">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Chamber Timings & Location
+          </h2>
+          <p class="section-subtitle">Chambers of Adv. Onkar Shinde, Pune</p>
+        </div>
+      </div>
+
+      <div class="chamber-info-grid">
+
+        <!-- Timings Card -->
+        <div class="chamber-detail-card">
+          <div class="detail-card-head">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            <span>Consultation Timings</span>
+          </div>
+          <ul class="detail-schedule-list">
+            <li><span>Monday – Friday</span> <strong>10:00 AM – 7:30 PM</strong></li>
+            <li><span>Saturday</span> <strong>10:00 AM – 6:00 PM</strong></li>
+            <li><span>Sunday</span> <strong>By Prior Appointment</strong></li>
+            <li><span>Court Hours</span> <strong>11:00 AM – 5:00 PM</strong></li>
+          </ul>
+        </div>
+
+        <!-- Office Details Card -->
+        <div class="chamber-detail-card">
+          <div class="detail-card-head">
+            <svg viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
+            <span>Chamber & Direct Contact</span>
+          </div>
+          <p style="font-size:13px; color:var(--text-muted); line-height:1.6; margin-bottom:12px;">
+            <strong>Advocate:</strong> Adv. Onkar Shinde<br>
+            <strong>Chamber:</strong> District Court Vicinity, Shivaji Nagar / Haveli / PCMC, Pune, Maharashtra 411005.<br>
+            <strong>Phone / WhatsApp:</strong> <a href="tel:+918459743665" style="color:var(--accent); font-weight:700;">+91 84597 43665</a>
+          </p>
+          <a href="https://maps.google.com/?q=District+Court+Pune+Maharashtra" target="_blank" class="service-action-btn" style="text-align:center;">
+            Open Google Maps Directions ↗
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VISITING CARD GALLERY -->
+    <section class="section-block" id="card-gallery">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">
+            <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+            Official Visiting Card & Chamber Gallery
+          </h2>
+          <p class="section-subtitle">Tap any image to view in high resolution.</p>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" style="cursor:pointer;" onclick="openImageModal('assets/terralex_card.jpg', 'TERRALEX: Land • Debt • Conveyancing')">
+          <img src="assets/terralex_card.jpg" alt="TERRALEX Visiting Card" loading="lazy">
+          <div class="gallery-caption">TERRALEX: Land • Debt • Conveyancing</div>
+        </div>
+        <div class="gallery-item" style="cursor:pointer;" onclick="openImageModal('assets/advocate_board.jpg', 'Advocate Chamber & Legal Practice Scope')">
+          <img src="assets/advocate_board.jpg" alt="Advocate Chamber Board" loading="lazy">
+          <div class="gallery-caption">Chamber Board: Civil, Criminal, Revenue & Notary</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BAR COUNCIL OF INDIA DISCLAIMER -->
+    <section class="bci-disclaimer">
+      <strong>BAR COUNCIL OF INDIA DISCLAIMER:</strong> As per the rules framed by the Bar Council of India under the Advocates Act, 1961, advocates and legal practitioners are not permitted to solicit work or advertise. This page is prepared exclusively for information and contact convenience for clients and acquaintances scanning Adv. Onkar Shinde's official visiting card QR code.
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p><strong>ADV. ONKAR SHINDE · TERRALEX</strong></p>
+    <p style="margin-top:4px; font-size:11.5px;">
+      Land · Debt · Conveyancing · Pune & Maharashtra Jurisdiction
+    </p>
+    <p style="margin-top:6px; font-size:11px; color:var(--text-faint);">
+      Designed for Physical Visiting Card QR Scans · Direct WhatsApp Lead Gateway
+    </p>
+  </footer>
+
+  <!-- ==========================================================================
+       MOBILE STICKY BOTTOM QUICK DOCK (THUMB CONVENIENCE ON SMARTPHONES)
+       ========================================================================== -->
+  <div class="mobile-bottom-dock">
+    <div class="mobile-dock-inner">
+      <a href="tel:+918459743665" class="dock-btn dock-btn-call" title="Call Adv. Onkar">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span>Call</span>
+      </a>
+
+      <a href="#enquiry-builder" class="dock-btn dock-btn-whatsapp" onclick="scrollToSection('enquiry-builder')" title="WhatsApp Adv. Onkar">
+        <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+        <span>WhatsApp Enquiry</span>
+      </a>
+
+      <button onclick="downloadVCard()" class="dock-btn dock-btn-vcard" title="Save Contact to Phone">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H6v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1z"/></svg>
+        <span>Save</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- QR CODE MODAL FOR PRESENTING CARD -->
+  <div class="modal-overlay" id="qrModal" onclick="closeQrModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeQrModal()">&times;</button>
+      <h3 style="font-family:var(--font-serif); font-size:17px; color:var(--text-main);">Scan to Open Digital Card</h3>
+      <p style="font-size:12px; color:var(--text-muted); margin-top:3px;">Scan with any phone camera to open this profile.</p>
+      
+      <div class="qr-container">
+        <img id="qrCodeImg" src="" alt="Digital Card QR Code">
+      </div>
+
+      <p style="font-size:13px; font-weight:800; color:var(--accent);">ADV. ONKAR SHINDE</p>
+      <p style="font-size:11px; color:var(--text-muted);">TERRALEX · +91 84597 43665 · Pune</p>
+    </div>
+  </div>
+
+  <!-- IMAGE LIGHTBOX MODAL -->
+  <div class="modal-overlay" id="imgLightboxModal" onclick="closeImageModal(event)">
+    <div class="modal-box" style="max-width:500px; padding:14px;" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeImageModal()">&times;</button>
+      <h4 id="lightboxTitle" style="font-size:13px; font-weight:700; margin-bottom:8px; color:var(--text-main); text-align:left;">Preview</h4>
+      <img id="lightboxImg" src="" style="width:100%; border-radius:var(--radius-sm); max-height:75vh; object-fit:contain; background:#000;" alt="Full Preview">
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notice" id="toastNotice">Action Completed</div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT LOGIC
+       ========================================================================== -->
+  <script>
+    const WHATSAPP_NUMBER = "918459743665";
+    const LAWYER_NAME = "Adv. Onkar Shinde";
+    const FIRM_NAME = "TERRALEX";
+
+    // Service Database incorporating User original + Image 1 (Terralex) + Image 2 (Board)
+    const serviceDatabase = {
+      "Property & Registry": {
+        marathi: "खरेदी-विक्री आणि रजिस्ट्री",
+        icon: "🏠",
+        items: [
+          "Sale deed / Property registration (खरेदीखत)",
+          "Agreement to Sale (साठेखत)",
+          "Gift deed (बक्षीसपत्र)",
+          "Release deed (हक्कसोडपत्र)",
+          "Rent / Leave & License Agreement (भाडेकरार)",
+          "Deed of Conveyance / Assignment Deed",
+          "Mortgage deed / Transfer deed",
+          "Property title search & 30-year verification",
+          "Other property registration work"
+        ]
+      },
+
+      "Land & Revenue Matters": {
+        marathi: "जमीन आणि महसूल विषयक कामे",
+        icon: "🌾",
+        items: [
+          "7/12 extract / land records (७/१२ उतारे)",
+          "Mutation entry / फेरफार नोंद",
+          "Property name transfer / वारस नोंद (Heirship)",
+          "Land demarcations & Mojani (मोजणी)",
+          "Land ownership dispute resolution",
+          "Tehsildar / SDO / Collector office work",
+          "Other land and revenue matters"
+        ]
+      },
+
+      "Legal Documents & Notary": {
+        marathi: "कागदपत्रे आणि नोटरी",
+        icon: "📜",
+        items: [
+          "Affidavit (प्रतिज्ञापत्र)",
+          "Notary work & attestation (नोटरी)",
+          "Power of Attorney / कुलमुखत्यारपत्र (General & Special)",
+          "Agreement drafting & MOU",
+          "Indemnity Bond & Undertaking / Declaration",
+          "Registered Will drafting & Succession (इच्छापत्र)",
+          "Development Agreement & Earnest Money Receipt",
+          "Other drafting and document work"
+        ]
+      },
+
+      "Court Cases & Litigation": {
+        marathi: "न्यायालयीन प्रकरणे व दावे",
+        icon: "⚖️",
+        items: [
+          "Civil case / Property injunction suit",
+          "Property partition & title suit",
+          "Cheque bounce case (Section 138 NI Act)",
+          "Family / matrimonial / maintenance case",
+          "Reply to legal notice & notice issuance",
+          "Co-operative court visit & affidavit",
+          "Consumer forum dispute",
+          "Existing case second opinion"
+        ]
+      },
+
+      "Legal Advice & Consultation": {
+        marathi: "कायदेशीर सल्ला व मार्गदर्शन",
+        icon: "💼",
+        items: [
+          "Property dispute consultation",
+          "Family / inheritance matter advice",
+          "Contract or agreement legal audit",
+          "Urgent police / legal notice consultation",
+          "General legal counsel & chamber appointment"
+        ]
+      },
+
+      "Certificates & Other Services": {
+        marathi: "प्रमाणपत्रे आणि इतर सेवा",
+        icon: "📑",
+        items: [
+          "Marriage registration & certificate assistance",
+          "Name change gazette & documentation",
+          "Succession certificate / वारसदार दाखला",
+          "Birth / death certificate legal assistance",
+          "Other miscellaneous legal service"
+        ]
+      }
+    };
+
+    // State
+    let currentCategory = "Property & Registry";
+    let currentService = serviceDatabase[currentCategory].items[0];
+
+    // ==========================================
+    // THEME SWITCHER
+    // ==========================================
+    function setAppTheme(themeName) {
+      document.documentElement.setAttribute('data-theme', themeName);
+      localStorage.setItem('lawyer_app_theme', themeName);
+
+      document.querySelectorAll('.theme-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.themeTarget === themeName);
+      });
+    }
+
+    (function initTheme() {
+      const saved = localStorage.getItem('lawyer_app_theme') || 'noir';
+      setAppTheme(saved);
+    })();
+
+    // ==========================================
+    // RENDER INTERACTIVE ELEMENTS
+    // ==========================================
+    const categoryGridEl = document.getElementById("categoryGrid");
+    const serviceGridEl = document.getElementById("serviceGrid");
+    const previewEl = document.getElementById("messagePreview");
+
+    function renderCategories() {
+      categoryGridEl.innerHTML = "";
+      Object.keys(serviceDatabase).forEach(catKey => {
+        const catData = serviceDatabase[catKey];
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "cat-card-btn" + (catKey === currentCategory ? " selected" : "");
+        btn.innerHTML = `
+          <div>
+            <span style="font-size:18px;margin-bottom:3px;display:block;">${catData.icon}</span>
+            <span class="cat-card-title">${catKey}</span>
+          </div>
+          <span class="cat-card-sub">${catData.marathi}</span>
+        `;
+
+        btn.addEventListener("click", () => {
+          currentCategory = catKey;
+          currentService = serviceDatabase[catKey].items[0];
+          renderCategories();
+          renderServices();
+          updateFormState();
+        });
+
+        categoryGridEl.appendChild(btn);
+      });
+    }
+
+    function renderServices() {
+      serviceGridEl.innerHTML = "";
+      const items = serviceDatabase[currentCategory].items;
+
+      items.forEach(item => {
+        const label = document.createElement("label");
+        const isSelected = item === currentService;
+        label.className = "choice-chip" + (isSelected ? " selected" : "");
+
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "subservice_choice";
+        radio.value = item;
+        radio.checked = isSelected;
+
+        radio.addEventListener("change", () => {
+          currentService = item;
+          document.querySelectorAll("#serviceGrid .choice-chip").forEach(c => c.classList.remove("selected"));
+          label.classList.add("selected");
+          updateFormState();
+        });
+
+        const span = document.createElement("span");
+        span.textContent = item;
+
+        label.append(radio, span);
+        serviceGridEl.appendChild(label);
+      });
+    }
+
+    function preselectService(catName, serviceName) {
+      if (serviceDatabase[catName]) {
+        currentCategory = catName;
+        currentService = serviceName || serviceDatabase[catName].items[0];
+        renderCategories();
+        renderServices();
+        updateFormState();
+        scrollToSection('enquiry-builder');
+        showToast("Selected: " + currentCategory);
+      }
+    }
+
+    function scrollToSection(sectionId) {
+      const el = document.getElementById(sectionId);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Update quick nav active pill
+        document.querySelectorAll('.nav-pill-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.getAttribute('onclick')?.includes(sectionId));
+        });
+      }
+    }
+
+    // Radio styles for status
+    document.querySelectorAll('input[name="status"]').forEach(input => {
+      input.addEventListener("change", () => {
+        document.querySelectorAll("#statusGrid .choice-chip").forEach(label => {
+          label.classList.toggle("selected", label.contains(input));
+        });
+      });
+    });
+
+    // ==========================================
+    // DYNAMIC WHATSAPP MESSAGE BUILDER (PERSONALIZED FOR ADV. ONKAR SHINDE)
+    // ==========================================
+    function buildMessageArray() {
+      const getVal = id => document.getElementById(id)?.value?.trim() || "";
+      const status = document.querySelector('input[name="status"]:checked')?.value || "Not specified";
+      const language = document.querySelector('input[name="language"]:checked')?.value || "Marathi";
+      const location = getVal("fieldLocation") || "Pune";
+      const name = getVal("fieldName");
+      const phone = getVal("fieldPhone");
+      const details = getVal("fieldDetails");
+
+      let greeting = "नमस्कार ओंकार सर,";
+      let intro = "मी आपल्या व्हिजिटिंग कार्डवरील QR कोड स्कॅन करून संपर्क करत आहे. मला खालील कायदेशीर कामासंबंधी सल्ला व मदत हवी आहे:";
+      let closing = "कृपया पुढील प्रक्रिया, आवश्यक कागदपत्रे आणि अंदाजे फीबाबत मार्गदर्शन करावे.\n\nधन्यवाद.";
+
+      if (language === "English") {
+        greeting = "Respected Adv. Onkar Shinde Sir,";
+        intro = "I am contacting you after scanning the QR code on your visiting card. I require professional legal guidance regarding:";
+        closing = "Kindly guide me regarding the required documents, consultation schedule, and fees.\n\nThank you.";
+      } else if (language === "Hindi") {
+        greeting = "नमस्ते ओंकार सर,";
+        intro = "मैं आपके विजिटिंग कार्ड पर दिए गए QR कोड को स्कैन करके संपर्क कर रहा हूँ। मुझे कानूनी कार्य हेतु मार्गदर्शन चाहिए:";
+        closing = "कृपया अगली प्रक्रिया, आवश्यक दस्तावेज और अनुमानित फीस के बारे में मार्गदर्शन करें।\n\nधन्यवाद।";
+      }
+
+      const lines = [
+        greeting,
+        "",
+        intro,
+        "─────────────────",
+        "📂 Domain / Category: " + currentCategory,
+        "📋 कामाचा प्रकार / Service: " + currentService,
+        "⏳ Current Status: " + status,
+        "📍 Jurisdiction / Location: " + location,
+        "🗣️ Preferred Language: " + language
+      ];
+
+      if (name) lines.push("👤 Client Name: " + name);
+      if (phone) lines.push("📞 Contact: " + phone);
+      if (details) lines.push("📝 Details / Summary: " + details);
+
+      lines.push("─────────────────", closing);
+      return lines;
+    }
+
+    function updateFormState() {
+      const lines = buildMessageArray();
+      previewEl.textContent = lines.join("\n");
+    }
+
+    function handleFormSubmit(e) {
+      if (e) e.preventDefault();
+      const lines = buildMessageArray();
+      const encoded = encodeURIComponent(lines.join("\n"));
+      const whatsappURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`;
+      window.open(whatsappURL, "_blank");
+    }
+
+    // ==========================================
+    // VCARD (.VCF) GENERATOR & DOWNLOAD
+    // ==========================================
+    function downloadVCard() {
+      const vCardData = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        "FN:Adv. Onkar Shinde",
+        "N:Shinde;Onkar;;Adv.;",
+        "ORG:TERRALEX - Land, Debt & Conveyancing",
+        "TITLE:Advocate & Legal Consultant",
+        "TEL;TYPE=CELL,VOICE,PREF:+918459743665",
+        "TEL;TYPE=WHATSAPP:+918459743665",
+        "ADR;TYPE=WORK:;;Chambers of Adv. Onkar Shinde, District Court Vicinity;Pune;Maharashtra;411005;India",
+        "NOTE:Land & Property Conveyancing, 7/12 Land Revenue, Court Litigation, Notary & Agreements. Scanned via Visiting Card.",
+        "URL:" + window.location.href,
+        "END:VCARD"
+      ].join("\r\n");
+
+      const blob = new Blob([vCardData], { type: "text/vcard;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Adv_Onkar_Shinde_Pune.vcf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast("Adv. Onkar Shinde added to contacts!");
+    }
+
+    // ==========================================
+    // SHARE DIGITAL CARD / QR MODAL
+    // ==========================================
+    function shareDigitalCard() {
+      if (navigator.share) {
+        navigator.share({
+          title: "Adv. Onkar Shinde | TERRALEX",
+          text: "Adv. Onkar Shinde - Land, Debt, Conveyancing, 7/12 Revenue & Court Litigation in Pune.",
+          url: window.location.href
+        }).catch(() => {});
+      } else {
+        openQrModal();
+      }
+    }
+
+    function openQrModal() {
+      const modal = document.getElementById("qrModal");
+      const qrImg = document.getElementById("qrCodeImg");
+      const currentUrl = encodeURIComponent(window.location.href);
+      qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=4&data=${currentUrl}`;
+      modal.classList.add("open");
+    }
+
+    function closeQrModal(e) {
+      if (e) e.stopPropagation();
+      document.getElementById("qrModal").classList.remove("open");
+    }
+
+    function openImageModal(imgSrc, titleText) {
+      const modal = document.getElementById("imgLightboxModal");
+      const img = document.getElementById("lightboxImg");
+      const title = document.getElementById("lightboxTitle");
+      img.src = imgSrc;
+      title.textContent = titleText || "Preview";
+      modal.classList.add("open");
+    }
+
+    function closeImageModal(e) {
+      if (e) e.stopPropagation();
+      document.getElementById("imgLightboxModal").classList.remove("open");
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toastNotice");
+      toast.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2800);
+    }
+
+    // Initialize Page
+    renderCategories();
+    renderServices();
+    updateFormState();
+  </script>
+</body>
+</html>
